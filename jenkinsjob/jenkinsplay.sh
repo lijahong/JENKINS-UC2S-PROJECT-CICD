@@ -41,7 +41,7 @@ java -jar jenkins-cli.jar -s http://192.168.1.192:8080/ -auth $1:$2 -webSocket c
 # build job
 java -jar jenkins-cli.jar -s http://192.168.1.192:8080/ -auth $1:$2 -webSocket build ${jobname}
 
-sleep 5
+sleep 25
 
 # get result about build
 result=$(cat /var/lib/jenkins/jobs/${jobname}/builds/1/log | tail -n 1)
