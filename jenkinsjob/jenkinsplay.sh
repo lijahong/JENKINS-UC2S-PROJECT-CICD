@@ -14,7 +14,7 @@ xmlpath="/root/cicdjob/jenkinsjob/template/${jobname}.xml"
 # java -jar jenkins-cli.jar -s http://192.168.1.192:8080/ -auth admin:test123 -webSocket get-job jobname > sample.xml
 # after get xml, it change some variable for job
 
-if [[ $9 == 'cicd' ]]
+if [[ $8 == 'cicd' ]]
 then
 cp /root/cicdjob/jenkinsjob/template/playcicd.xml $xmlpath
 # update xml file
