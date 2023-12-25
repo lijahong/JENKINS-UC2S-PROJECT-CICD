@@ -1,4 +1,4 @@
-# UC2S_CICD_JOB
+# 완전 관리형 CI/CD 서비스 - UC2S
 #### UC2S Project - CICD 노드 실행 파일
 
 ### 파일 설명
